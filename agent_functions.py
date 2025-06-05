@@ -12,3 +12,11 @@ project_client = AIProjectClient.from_connection_string(
           exclude_managed_identity_credential=True),
      conn_str=PROJECT_CONNECTION_STRING
 )
+
+# Get a chat client
+chat = projectClient.inference.get_chat_completions_client()
+
+# Initialize prompt with system message
+prompt=[
+         SystemMessage("You are a helpful AI assistant that answers questions.")
+     ]
