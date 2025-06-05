@@ -20,3 +20,13 @@ chat = projectClient.inference.get_chat_completions_client()
 prompt=[
          SystemMessage("You are a helpful AI assistant that answers questions.")
      ]
+
+
+     # Get a chat completion
+prompt.append(UserMessage(input_text))
+response = chat.complete(
+     model=model_deployment,
+     messages=prompt)
+completion = response.choices[0].message.content
+print(completion)
+prompt.append(AssistantMessage(completion))
