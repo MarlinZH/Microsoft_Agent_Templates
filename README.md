@@ -10,6 +10,8 @@ Variables
     Resource group: Create or select a resource group
     Region: Select any AI Services supported location*
 
+    -------
+
     rm -r mslearn-ai-foundry -f
     git clone https://github.com/microsoftlearning/mslearn-ai-studio mslearn-ai-foundry
     cd mslearn-ai-foundry/labfiles/chat-app/python
