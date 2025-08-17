@@ -1,4 +1,4 @@
-# microsoft_agent_templates
+# microsoft_agent_templates and boilerplate
 Repository of Templates from Microsoft Learning for future projects
 
 Portals:
