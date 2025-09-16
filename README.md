@@ -9,6 +9,7 @@ Variables
     Subscription: Your Azure subscription
     Resource group: Create or select a resource group
     Region: Select any AI Services supported location*
+    
 
     -------
 
