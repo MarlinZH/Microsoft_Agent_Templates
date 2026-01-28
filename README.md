@@ -1,5 +1,5 @@
 # microsoft_agent_templates and boilerplate
-Repository of Templates from Microsoft Learning for future projects
+Repository of Templates from Microsoft Learning for future projects code out dated.
 
 Portals:
 Azure AI Foundry portal: https://ai.azure.com
